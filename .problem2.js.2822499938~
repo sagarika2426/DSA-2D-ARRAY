@@ -1,0 +1,36 @@
+var matrix = 
+  [
+    ["x", "o", "x"],
+    ["o", "x", "x"],
+    ["o", "o", "o"]
+  ];
+
+var N = matrix.length;
+var M = matrix[0].length;
+var o_win = true;
+
+
+var el_1 = matrix[0][0];
+var el_2 = matrix[0][1];
+var el_3 = matrix[0][2];
+
+if(el_1 == el_2 == el_3)
+{
+  console.log(true);
+}
+else
+{
+  console.log(false);
+}
+
+for(var i = 0; i<N; i++)
+  {
+    var element = "";
+    for(var j = 0; j<M; j++)
+      {
+      
+        }
+  
+      }
+    
+  }
